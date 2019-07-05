@@ -16,7 +16,6 @@ namespace ServiceStation
 		/// Main application entry point
 		/// </summary>
 		[STAThread]
-
 		static void Main()
 		{
 			Application.EnableVisualStyles();
@@ -30,7 +29,8 @@ namespace ServiceStation
 					Application.Run(new MainForm());
 				else if(!staffID.Equals(0))
 					//Запуск формы д/мастеров
-					Application.Run(new FinderForm("Cars"));
+					//Application.Run(new FinderForm("Cars"));
+					System.Threading.Thread.Sleep(1);
 			} while (reauthorize);
 		}
 	}
