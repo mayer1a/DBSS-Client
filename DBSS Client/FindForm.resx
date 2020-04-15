@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="buttonFind.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonFind.AccessibleDescription" xml:space="preserve">
+    <value>Выполнить поиск</value>
+  </data>
+  <data name="buttonFind.AccessibleName" xml:space="preserve">
+    <value>Найти</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonFind.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="buttonFind.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="buttonFind.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="buttonFind.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="buttonFind.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 30</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="buttonFind.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="buttonFind.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="&gt;&gt;buttonFind.Name" xml:space="preserve">
+    <value>buttonFind</value>
+  </data>
+  <data name="&gt;&gt;buttonFind.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFind.Parent" xml:space="preserve">
+    <value>findPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonFind.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="buttonClose.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="buttonClose.AccessibleDescription" xml:space="preserve">
+    <value>Выйти из окна поиска</value>
+  </data>
+  <data name="buttonClose.AccessibleName" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="buttonClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="buttonClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 1</value>
+  </data>
+  <data name="buttonClose.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="buttonClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="buttonClose.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Name" xml:space="preserve">
+    <value>buttonClose</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;buttonClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="mainPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="findPanel.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="findPanel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="findPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 141</value>
+  </data>
+  <data name="findPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="findPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 30</value>
+  </data>
+  <data name="findPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;findPanel.Name" xml:space="preserve">
+    <value>findPanel</value>
+  </data>
+  <data name="&gt;&gt;findPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findPanel.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;findPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="sensFindBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="sensFindBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="hardRadio.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="hardRadio.AccessibleDescription" xml:space="preserve">
+    <value>Только слово целиком</value>
+  </data>
+  <data name="hardRadio.AccessibleName" xml:space="preserve">
+    <value>Строгий поиск</value>
+  </data>
+  <data name="hardRadio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="hardRadio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="hardRadio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="hardRadio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="hardRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 43</value>
+  </data>
+  <data name="hardRadio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="hardRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="hardRadio.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="hardRadio.Text" xml:space="preserve">
+    <value>Equals</value>
+  </data>
+  <data name="&gt;&gt;hardRadio.Name" xml:space="preserve">
+    <value>hardRadio</value>
+  </data>
+  <data name="&gt;&gt;hardRadio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hardRadio.Parent" xml:space="preserve">
+    <value>sensFindBox</value>
+  </data>
+  <data name="&gt;&gt;hardRadio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="softRadio.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="softRadio.AccessibleDescription" xml:space="preserve">
+    <value>Все совпадения, в том числе - вхождение в состав слова</value>
+  </data>
+  <data name="softRadio.AccessibleName" xml:space="preserve">
+    <value>Мягкий поиск</value>
+  </data>
+  <data name="softRadio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="softRadio.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="softRadio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="softRadio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="softRadio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="softRadio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="softRadio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 22</value>
+  </data>
+  <data name="softRadio.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="softRadio.Text" xml:space="preserve">
+    <value>Softlty</value>
+  </data>
+  <data name="&gt;&gt;softRadio.Name" xml:space="preserve">
+    <value>softRadio</value>
+  </data>
+  <data name="&gt;&gt;softRadio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;softRadio.Parent" xml:space="preserve">
+    <value>sensFindBox</value>
+  </data>
+  <data name="&gt;&gt;softRadio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="sensFindBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 70</value>
+  </data>
+  <data name="sensFindBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 68</value>
+  </data>
+  <data name="sensFindBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="sensFindBox.Text" xml:space="preserve">
+    <value>Sensitivity:</value>
+  </data>
+  <data name="&gt;&gt;sensFindBox.Name" xml:space="preserve">
+    <value>sensFindBox</value>
+  </data>
+  <data name="&gt;&gt;sensFindBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sensFindBox.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;sensFindBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="toolFindBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="toolFindBox.AccessibleDescription" xml:space="preserve">
+    <value>Search parameters:</value>
+  </data>
+  <data name="toolFindBox.AccessibleName" xml:space="preserve">
+    <value>Search parameters</value>
+  </data>
+  <metadata name="columnBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="columnBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="columnBox.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>System</value>
+  </data>
+  <data name="columnBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="columnBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 25</value>
+  </data>
+  <data name="columnBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;columnBox.Name" xml:space="preserve">
+    <value>columnBox</value>
+  </data>
+  <data name="&gt;&gt;columnBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;columnBox.Parent" xml:space="preserve">
+    <value>toolFindBox</value>
+  </data>
+  <data name="&gt;&gt;columnBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolFindBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 70</value>
+  </data>
+  <data name="toolFindBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 68</value>
+  </data>
+  <data name="toolFindBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="toolFindBox.Text" xml:space="preserve">
+    <value>Search in the { }</value>
+  </data>
+  <data name="&gt;&gt;toolFindBox.Name" xml:space="preserve">
+    <value>toolFindBox</value>
+  </data>
+  <data name="&gt;&gt;toolFindBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolFindBox.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;toolFindBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="finderBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="finderBox.AccessibleDescription" xml:space="preserve">
+    <value>Элементы поиска</value>
+  </data>
+  <data name="finderBox.AccessibleName" xml:space="preserve">
+    <value>Найти:</value>
+  </data>
+  <metadata name="findBox.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="findBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="findBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 21</value>
+  </data>
+  <data name="findBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 25</value>
+  </data>
+  <data name="findBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;findBox.Name" xml:space="preserve">
+    <value>findBox</value>
+  </data>
+  <data name="&gt;&gt;findBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;findBox.Parent" xml:space="preserve">
+    <value>finderBox</value>
+  </data>
+  <data name="&gt;&gt;findBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="finderBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="finderBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="finderBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>329, 51</value>
+  </data>
+  <data name="finderBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="finderBox.Text" xml:space="preserve">
+    <value>Enter request:</value>
+  </data>
+  <data name="&gt;&gt;finderBox.Name" xml:space="preserve">
+    <value>finderBox</value>
+  </data>
+  <data name="&gt;&gt;finderBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;finderBox.Parent" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;finderBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="mainPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>2, 2</value>
+  </data>
+  <data name="mainPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="mainPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>336, 171</value>
+  </data>
+  <data name="mainPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Name" xml:space="preserve">
+    <value>mainPanel</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;mainPanel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="dbssDS.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>208</value>
+  </metadata>
+  <data name="$this.AccessibleDescription" xml:space="preserve">
+    <value>Окно поиска</value>
+  </data>
+  <data name="$this.AccessibleName" xml:space="preserve">
+    <value>Поиск</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>340, 175</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9.75pt</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAAMMOAADDDgAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcVVdvXFZX3lxW
+        V95PSUneT0lJ3lxVV28AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAXFVXb09JSd5PSUneXFZX3lxWV95cVVdvAAAAAAAAAAAAAAAAAAAAAFxW
+        WIBSTU3/Uk1N/1ROT/9UTk//XFZYgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABcVliAVE5P/1ROT/9STU3/Uk1N/1xWWIAAAAAAAAAAAAAA
+        AAAAAAAAXFZYgFRNT/9UTU//UUxM/1FMTP9cVliAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFxWWIBRTEz/UUxM/1RNT/9UTU//XFZYgAAA
+        AAAAAAAAAAAAAAAAAABQS0yTSENE/0hDRP9JRUX/SUVF/1BLTJMAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUEtMk0lFRf9JRUX/SENE/0hD
+        RP9QS0yTAAAAAAAAAAAAAAAAJgDZQzMYo9IyHY7/Mh2O/zYfkP82H5D/Mxij0iYA2YUmANmFJgDZhSYA
+        2YUmANmFJgDZhSYA2YUmANmFJgDZhSYA2YUmANmFJgDZhSYA2YUmANmFJgDZhSYA2YUzGKPSNh+Q/zYf
+        kP8yHY7/Mh2O/zMYo9ImANlDAAAAAAAAAAAoANeAJwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA
+        2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA
+        2P8nANj/JwDY/ycA2P8nANj/JwDY/ygA14AAAAAAAAAAACoKzYApCs//LSzd6TFM5f8xTOX/MUzl/zFM
+        5f8xTOX/KxrW6SkKz/8pCs//KQrP/ykKz/8pCs//KQrP/ykKz/8pCs//KQrP/ykKz/8pCs//KQrP/ysa
+        1ukxTOX/MUzl/zFM5f8xTOX/MUzl/y0s3ekpCs//KgrNgAAAAAAAAAAALh69gC0evv88mujARNr//0Ta
+        //9E2v//RNr//0Ta//81XNPALR6+/y0evv8tHr7/LR6+/y0evv8tHr7/LR6+/y0evv8tHr7/LR6+/y0e
+        vv8tHr7/NVzTwETa//9E2v//RNr//0Ta//9E2v//PJrowC0evv8uHr2AAAAAAAAAAAAuHr2ALR6+/zya
+        6MBR3f//U93//0nb//9E2v//RNr//zVc08AtHr7/LR6+/y0evv8tHr7/LR6+/y0evv8tHr7/LR6+/y0e
+        vv8tHr7/LR6+/y0evv81XNPARNr//0Ta//9E2v//RNr//0Ta//88mujALR6+/y4evYAAAAAAAAAAAC4c
+        v38tHb/6Oo/nwIfd/fqS3/36X9X9+kLQ/fpC0P36NFbTwC0dv/otHb/6LR2/+i0dv/otHb/6LR2/+i0d
+        v/otHb/6LR2/+i0dv/otHb/6LR2/+jRW08BC0P36QtD9+kLQ/fpC0P36QtD9+jqP58AtHb/6Lhy/fwAA
+        AAAAAAAAKA3OcyoJz8QtJty8MELkxDBC5MQwQuTEMELkxDBC5MQrH9m8KgnPxCoJz8QqCc/EKgnPxCoJ
+        z8QqCc/EKgnPxCoJz8QqCc/EKgnPxCoJz8QqCc/EKx/ZvDBC5MQwQuTEMELkxDBC5MQwQuTELSbcvCoJ
+        z8QoDc5zAAAAAAAAAAAoAtd4JwHX+icC2PkoBNj6KATY+igE2PooBNj6KATY+icC2PknAdf6JwHX+icB
+        1/onAdf6JwHX+icB1/onAdf6JwHX+icB1/onAdf6JwHX+icB1/onAtj5KATY+igE2PooBNj6KATY+igE
+        2PonAtj5JwHX+igC13gAAAAAAAAAACkA2j4mANj8JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA
+        2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA2P8nANj/JwDY/ycA
+        2P8nANj/JwDY/ycA2P8nANj7JgDZPQAAAAAAAAAAPA+0EToYxYA3Fce6LwzOrEUSv7ReJKnQbDGo43BL
+        yPVtS8zyXiWr0V4kqdBsMajjcDWm6WMnqdZeJKnQXiSp0GArsdZvVNf7YjO33F4kqdBeJKnQXiSp0F4k
+        qdBeJKnQXiSp0EUSv7QvDM6sNxXHujgYxX9AEL8QAAAAAAAAAACBdXhVeWuAxG9hid1KMLFFsVdlctlw
+        ROnadUvy2I11+sqquvnJoKrpzpCL6dCTjfLQmpj1zpqa7Nl0S+nZcETp2HJI7NKPgP3FrsXuzpKN6c6Q
+        i+nOkIvpzpCL6dOBaOnZcETpsVdlckstsERvYYndeGuAw4F1eFUAAAAAAAAAAIB1d4CAdnj/gHZ40nZ2
+        dg3/hiJK/4gk//+JJv//kzn/9rJ6/+/Cnv/xtYT/8bSC//G5iv/xv5f//5lD//+MKv//iCT//JE4//C1
+        hf/wtYL/8bSB//G0gf/xtIH/+J5T//+IJP//iCNJgICADIB2eNOAdnj/gHV3gAAAAAAAAAAAfnZ2Q4B3
+        eYWBdnldAAAAAP+CJCv/iCT//4gk//+JJv/+lDv/+a1u//isbf/4oln/+J5T//ikX///n07//5lB//+M
+        K///iCT//JE4//ieUv/4nlL/+J5S//ieUv/7kzz//4gk//+FJCoAAAAAgHV3XoB3eYV+dnZDAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA/4AgEP+IJPv/iCT//4gk//+JJf//lTv//6BP//+XQP//iyv//4kl//+V
+        O///oE///5dA//+LK///iCT//4gk//+IJP//iCT//4gk//+IJP//iCX7/4giDwAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAB/4gk6v+IJP//iCT//4gk//+JJf//lTz//6BQ//+X
+        P///iyr//4kl//+VPP//oFD//5c///+LKv//iCT//4gk//+IJP//iCT//4gk//+IJOr//wABAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD/iCS//4gk//+IJP//iCT//4gk//+I
+        Jf//lT3//6FR//+XPv//iyn//4gl//+VPf//oVH//5c+//+LKf//iCT//4gk//+IJP//iCT//4gkvwAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP+KJGv/iCTp/4kl7f+J
+        Je3/iSXt/4kl7f+JJe3/lz7t/6NV9P+UPPb/iCTv/4kl7f+XPu3/o1X0/5Q89v+IJO//iSXt/4kl7f+I
+        JOn/iSRqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAf+J
+        JFT/hyR3/4ckd/+HJHf/hyR3/4ckd/+HJHf/l0Gp/5xGtv+OLoX/hyR3/4ckd/+XQan/nEa2/44uhf+H
+        JHf/hyR3/4kkVP//AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAA///////////////////////////A//8DwP//A8D//wPA//8DgAAAAYAA
+        AAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABgAAAAYAAAAGAAAABiAAAEfgAAB/4AAAf/AAAP/wA
+        AD/8AAA///////////////////////////8=
+</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="&gt;&gt;dbssDS.Name" xml:space="preserve">
+    <value>dbssDS</value>
+  </data>
+  <data name="&gt;&gt;dbssDS.Type" xml:space="preserve">
+    <value>ServiceStation.DbssDS, DbssDS.Designer.cs.dll, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FinderForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

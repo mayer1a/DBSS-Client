@@ -1,0 +1,119 @@
+﻿#region Namespaces and lib
+
+using System;
+using System.Security.Cryptography;
+using System.Text;
+using System.Windows.Forms;
+
+#endregion
+
+namespace ServiceStation
+{
+	/// <summary>
+	/// Re-request password for access
+	/// </summary>
+	public partial class PasswordForm : Form
+	{
+		public static bool access;
+		/// <summary>
+		/// Constructor for all components in this form
+		/// </summary>
+		public PasswordForm()
+		{
+			InitializeComponent();
+			access = false;
+		}
+
+		/// <summary>
+		/// Password visible flag
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void PasswordVisible(object sender, EventArgs e)
+		{
+			if (passBox.UseSystemPasswordChar.Equals(true))
+			{
+				passBox.UseSystemPasswordChar = false;
+			}
+			else
+			{
+				passBox.UseSystemPasswordChar = true;
+			}
+		}
+
+		/// <summary>
+		/// Verify your identity and continue
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void SubmitAction(object sender, EventArgs e)
+		{
+			if (passBox.Text.Equals(string.Empty))
+			{
+				_ = MessageBox.Show(
+					"Fill in the field",
+					"Attention!",
+					MessageBoxButtons.OK,
+					MessageBoxIcon.Warning,
+					MessageBoxDefaultButton.Button1,
+					MessageBoxOptions.ServiceNotification);
+
+				return;
+			}
+
+			System.Data.DataRowCollection dataRow;
+			dataRow = dbssDS.DATA.Rows;
+			string str = $"1t$_Am@31ng{ passBox.Text }y0UrL0g1№";
+			
+
+			byte[] inputBytes = Encoding.Unicode.GetBytes(str);
+			byte[] hashedBytes = new SHA256CryptoServiceProvider().ComputeHash(inputBytes);
+
+			str = string.Empty;
+
+			foreach (byte b in hashedBytes)
+			{
+				str += b.ToString("x2").ToUpper();
+			}
+
+			foreach (System.Data.DataRow v in dataRow)
+			{
+				if (v["Password"].Equals(str))
+				{
+					access = true;
+					return;
+				}
+			}
+
+			_ = MessageBox.Show(
+				"Incorrect password! Access is denied..",
+				"Wrong!",
+				MessageBoxButtons.OK,
+				MessageBoxIcon.Error,
+				MessageBoxDefaultButton.Button1,
+				MessageBoxOptions.DefaultDesktopOnly);
+		}
+
+		private void PasswordFormClose(object sender, KeyEventArgs e)
+		{
+			if (e.KeyData.Equals(Keys.Escape)) Close();
+		}
+
+
+
+		private void FocusOnSubmit(object sender, EventArgs e)
+		{
+			submitButton.Focus();
+		}
+
+		private void PasswordFormLoad(object sender, EventArgs e)
+		{
+			passBox.Focus();
+		}
+
+		private void CloseAction(object sender, EventArgs e)
+		{
+			Close();
+		}
+	}
+}
